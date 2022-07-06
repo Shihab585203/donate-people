@@ -125,6 +125,11 @@ hr {
 .get-updates{
     margin: 150px 0;
 }
+.get-updates p {
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
 .mailchimp {
     background: #FFF4D6;
     width: 80%;
