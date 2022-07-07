@@ -1,173 +1,186 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
 h2 {
-    font-size: 40px;
+  font-size: 40px;
 }
 .middle-content {
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* Donate Banner */
-.donate-banner{
-    background-image: linear-gradient(to top, black, transparent), url(images/donation0.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 150px 0;
-    color: white;
+.donate-banner {
+  background-image: linear-gradient(to top, black, transparent),
+    url(images/donation0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0;
+  color: white;
 }
 .banner-content p {
-    margin-bottom: 70px;;
+  margin-bottom: 70px;
 }
-a.donate-now{
-    color: white;
-    text-decoration: none;
-    padding: 20px;
-    background-color: #FF5959;
-    font-weight: 700;
-    letter-spacing: 1px;
-    border-radius: 5px;
+a.donate-now {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  background-color: #ff5959;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 5px;
 }
 
 /* Donate Today */
 .donate-today h1 {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 .donate-today p,
 .donate-plan p {
-    font-size: 18px;
-    color: grey;
+  font-size: 18px;
+  color: grey;
 }
-.donate-fund{
-    display: flex;
-    justify-content: center;
+.donate-fund {
+  display: flex;
+  justify-content: center;
 }
-.donate-rest{
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
+.donate-rest {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
 }
 .fund-card {
-    background: #FAFAFA;
-    margin: 10px;
-    padding: 15px;
-    color: grey;
-    margin-top: 50px;
+  background: #fafafa;
+  margin: 10px;
+  padding: 15px;
+  color: grey;
+  margin-top: 50px;
 }
 #fund-card-active {
-    background-color: #FFEEEE;
-    color: #FF5959;
-    border: 2px solid #FF5959;
-    border-radius: 5px;
+  background-color: #ffeeee;
+  color: #ff5959;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
 }
 hr {
-    width: 80%;
-    margin-bottom: 50px;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.donate-amount input[type="text"],
+.donate-amount input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+}
+.donate-amount input[type="text"] {
+  margin-top: 50px;
+  padding: 10px 300px;
+  border-bottom: 3px solid grey;
+}
+.donate-amount input[type="submit"] {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 /* Donate Plan */
-.donate-plan h1{
-    margin-top: 150px;
+.donate-plan h1 {
+  margin-top: 150px;
 }
 
 .donate-plan .middle-content p {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 .plan-container {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
 }
-.donate-plan-card{
-    margin-left: 2%;
-    padding: 40px 20px;
+.donate-plan-card {
+  margin-left: 2%;
+  padding: 40px 20px;
 }
-#plan-card1{
-    background-color: #EDF5F6;
+#plan-card1 {
+  background-color: #edf5f6;
 }
-#plan-card2{
-    background-color: #FFEEEE;
+#plan-card2 {
+  background-color: #ffeeee;
 }
-#plan-card3{
-    background-color: #FFF4D6;
+#plan-card3 {
+  background-color: #fff4d6;
 }
 
 /* Lives Depend */
 .lives-depend {
-   display: flex;
-   width: 80%; 
-   margin: 0 auto;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
 }
-.lives-depend img{
-    width: 90%;
+.lives-depend img {
+  width: 90%;
 }
-.lives-depend p{
-    color: grey;
-    font-size: 18px;
+.lives-depend p {
+  color: grey;
+  font-size: 18px;
 }
 
 .half-width {
-    width: 50%;
-    margin-left: 3%;
-    padding-top: 100px;
+  width: 50%;
+  margin-left: 3%;
+  padding-top: 100px;
 }
-#lives-para{
-    margin-bottom: 60px;
+#lives-para {
+  margin-bottom: 60px;
 }
 /* Get Updates */
-.get-updates{
-    margin: 100px 0;
+.get-updates {
+  margin: 100px 0;
 }
 .get-updates p {
-    color: grey;
-    font-size: 18px;
-    margin-bottom: 60px;
+  color: grey;
+  font-size: 18px;
+  margin-bottom: 60px;
 }
 .mailchimp {
-    background: #FFF4D6;
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 100px 50px;
+  background: #fff4d6;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px 50px;
 }
 
 input {
-    border: none;
-    font-size: 18px;
+  border: none;
+  font-size: 18px;
 }
-input[type="email"]{
-    background: #D9D9D9;
-    padding: 15px 60px 15px 30px;
-
+input[type="email"] {
+  background: #d9d9d9;
+  padding: 15px 60px 15px 30px;
 }
 
 input[type="submit"] {
-    background: #FF5959;
-    color: white;
-    padding: 15px 60px;
-    margin-left: -5px;
+  background: #ff5959;
+  color: white;
+  padding: 15px 60px;
+  margin-left: -5px;
 }
 
 /* Footer */
 
 footer {
-    background: black;
-    color: white;
-    text-align: center;
-    padding: 20px;
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 footer h2 {
-    color: #FF5959;
-    font-family: 'Lobster', cursive;
-    font-style: italic;
+  color: #ff5959;
+  font-family: "Lobster", cursive;
+  font-style: italic;
 }
-
-
-
